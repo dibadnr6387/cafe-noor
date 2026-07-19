@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>NOOR</title>
+     <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+  nav ul li a{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+
+nav ul li a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: #d4a373;
+    transition: .3s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+                *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+        background-image: url(back.png);
+        
+        }
+        .cont{
+            height: 100vh;
+        }
+        .header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            backdrop-filter:blur(30px);
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            height: 70px;
+            width: 100%;
+            box-shadow: 0 4px 20px rgba(167, 140, 93, 0.8);
+           
+        }
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+}
+
+ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+}
+
+header{
+    position:absolute;
+    width:100%;
+}
+h5{
+    position: relative;
+    bottom: 90px;
+    font-size: 100px;
+    color: rgb(35, 34, 34);
+}
+.logo{
+    color: #45342b;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.logo i{
+    color: #423616;
+    margin-right: 8px;
+}
+    </style> 
+</head>
+<body>
+    <h5>Coffee Made with Love.</h5>
+    <div class="cont">
+        <div class="header">
+          <header>
+    <nav>
+       <h2 class="logo">
+    <i class="fa-solid fa-mug-hot"></i>
+    Coffee NOOR
+</h2>
+        <ul>
+            <li><a href="./hed.html">Home</a></li>
+            <li><a href="./menu/in.html">Menu</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="login/index.html">LOGIN</a></li>
+        </ul>
+    </nav>
+</header>
+    </div>
+</body>
+</html>
